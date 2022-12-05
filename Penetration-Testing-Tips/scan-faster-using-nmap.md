@@ -6,7 +6,7 @@ using Nmap:
 
 
 ```shell
-# nmap -vvv -T4 -sS -Pn -n --min-rate 250 --unique --max-retries 3 \
+\# nmap -vvv -T4 -sS -Pn -n --min-rate 250 --unique --max-retries 3 \
       --max-rtt-timeout 1000ms --min-hostgroup 128 --top-ports 580 \
       [--open] -oN <filename> -oX <filename> <host1>,<host2>,...
 ```
